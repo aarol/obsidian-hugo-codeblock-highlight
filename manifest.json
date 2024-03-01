@@ -1,11 +1,10 @@
 {
-	"id": "sample-plugin",
-	"name": "Sample Plugin",
+	"id": "hugo-codeblock-highlight",
+	"name": "Hugo codeblock highlight",
 	"version": "1.0.0",
-	"minAppVersion": "0.15.0",
-	"description": "Demonstrates some of the capabilities of the Obsidian API.",
-	"author": "Obsidian",
-	"authorUrl": "https://obsidian.md",
-	"fundingUrl": "https://obsidian.md/pricing",
+	"minAppVersion": "1.5.0",
+	"description": "Highlights lines in codeblocks using Hugo's hl_lines syntax.",
+	"author": "aarol",
+	"authorUrl": "https://github.com/aarol",
 	"isDesktopOnly": false
 }
