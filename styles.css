@@ -1,11 +1,10 @@
-/*
-
-This CSS file will be included with your plugin, and
-available in the app when your plugin is enabled.
-
-If your plugin does not need CSS, delete this file.
-
-*/
-.hugo-line-highlight {
+.hugo-line-highlight,
+/* Override for "Code Styler" plugin */
+.code-styler .markdown-source-view .HyperMD-codeblock[class*=code-styler-line][class*=language-].hugo-line-highlight
+{
+  /*
+    A color chosen to fit the default theme nicely
+    If this doesn't work on your theme, please file an issue / PR
+  */
   background-color: var(--background-modifier-hover) !important;
 }
