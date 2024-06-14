@@ -17,6 +17,10 @@ let b = 2;
 
 `hl_lines` can be a single number, or an array of numbers/ranges (`hl_lines=[1, "2", "3-5"]`)
 
+You can also select lines you want to highlight inside codeblocks and click `Highlight selected lines` in the right-click menu:
+
+![Screen recording of plugin in action, showing off the right-click menu action](./doc/hugo-highlight-demo-contextmenu.gif)
+
 Only the `hl_lines` property is supported.
 
 > [!NOTE]  
@@ -27,6 +31,7 @@ Only the `hl_lines` property is supported.
 - Install dependencies: `pnpm install`
 - Compile & watch changes: `pnpm dev`
 - Build production release: `pnpm build`
+- Run tests: `pnpm test`
 
 Check the [Obsidian documentation](https://docs.obsidian.md/Plugins/Getting+started/Build+a+plugin) for more information.
 
